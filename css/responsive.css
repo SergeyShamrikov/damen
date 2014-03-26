@@ -1,0 +1,141 @@
+/*==================================RESPONSIVE LAYOUTS===============================================*/
+@media only screen and (max-width: 1290px) {
+ body{min-width:1024px;}
+.container{width: 1024px;}
+	.counter{padding-left: 90px;}
+	.business_course_cell{padding-left: 30px;width: 300px;}
+		.business_col{width: 250px;}
+	.owl_box{width: 620px;}
+		.owl-prev, .owl-next{top: 48px;}
+/*connect*/
+.connect{padding: 50px 30px;width: 634px;}
+	.connect_form_it label{width: 124px;}
+	.box2{width: 509px;}
+		.box2 input, .box2 select{width: 267px;}
+		.box2 select{width: 269px;}
+		.box2 textarea{width: 485px;}
+		.required{margin-right: 57px;}
+aside.column3{width: 315px;}
+	.event_name{padding-left: 20px;width: 210px;}
+.box2 .data{width: 87px;}
+.solution_lk{right: 8%;}
+}
+@media only screen and (max-width: 1040px) {
+ body{min-width:996px;}
+	.container{width: 996px;}
+		h1.logo{padding-left: 32px;}
+		.solution{padding:0 25px;}
+		.owl_box{margin-left: 25px;}
+		.vacancies,.column_right{padding-right: 25px;}
+		.column_left{padding-left: 25px;}
+/*connect*/
+aside.column3{width: 287px;}
+	.contact_tel{padding: 60px 10px;}
+	.event_name{width: 186px;}
+.solution_lk{right: 6%;}
+}
+@media only screen and (max-width: 995px) {
+ body{min-width:768px;}
+	.container{width: 768px;}
+		body.home_page .slogan,.counter{display: inline-block;float: none;}
+		.counter{padding-left: 165px;}
+		body.home_page h1.logo{background: none;float: none;padding-bottom: 0;}
+			body.home_page h1.logo a{margin: 0 auto;}
+		.main_menu{width: 570px;}
+			.menu_lk{padding: 8px 15px 9px 15px;}
+		.business_course_cell{width: 215px;margin-bottom: 20px;}
+		.business_col{width: 165px;}
+		.owl_box{width: 470px;}
+		.vacancies{width: 195px;}
+		.social{padding-right: 40px;}
+		.caption{bottom: 16px;}
+			.title1, .caption_lk, .caption_it{font-size: 22px;line-height: 26px;}
+			.title1{width: 275px;}
+		footer{background: #235892;}
+/*connect*/
+.connect{width: auto;float: none;margin-bottom: 15px;}
+	.box2{width: 583px;}
+		.box2 input, .box2 select{width: 336px;}
+		.box2 select{width: 338px;}
+		.box2 textarea{width: 499px;}
+	aside.column3{width: auto;float: none;margin-left: 0;overflow: hidden;}
+		.recruiter,.our_social,.meet_events{width: 376px;float: left;}
+		.our_social,.meet_events{margin-left: 16px;}
+			.event_name{width: 275px;}
+.box2 .data{width: 110px;}
+
+
+}
+
+@media only screen and (max-width: 767px) {
+ body{min-width:420px;}
+ .container{width: 420px;}
+ .counter_box{width: 240px;margin: 0 auto;}
+ 	.main_menu{display: none;width: 100%;}
+ 	.button_nav{display: block;float: left;}
+ 		.main_menu li{float: none;}
+ 			.menu_lk{font-size: 20px;}
+ 	.flex-control-nav{text-align: right;font-size: 0;right: 40px;bottom: 0px;}
+ 	.title1, .caption_lk, .caption_it{font-size: 14px;line-height: 14px;}
+ 	.title1{width: 150px;}
+ 	.caption{bottom: 5px;}
+ 	.caption_lk{width: 20px;}
+ 	.counter{float: none;text-align: center;padding-left: 0;display: block;}
+ 	.solution{padding: 0;}
+ 		.column1{padding: 15px;}
+ 			.title2{font-size: 20px;line-height: 26px;}
+ 			.column1 p{font-size: 16px;line-height: 20px;}
+		.column2{padding: 15px 15px 50px;}
+			.solution_lk{bottom: 10px;}
+		.business_course_cell{width: auto;}
+			.business_col{width: 310px;}
+		.owl_box{width: 90%;margin-left: 5%;float: none; margin-bottom: 25px;}
+		.vacancies{width: auto;float: none;padding-left: 25px;}
+		.column_left{width: auto;float: none;}
+		.column_right{float: none;padding-left: 25px;padding-right: 0;}
+			.social{padding-right: 0;}
+				.social_it:first-child{padding-left: 0;}
+	nav .container{position: relative;padding: 5px 0;}
+		.career_lk{position: absolute;top: 5px;right: 0;}
+	.b-modal{width: 400px;}
+		.b-modal img{width: 100%;}
+	.slogan{text-align: center;display: block;padding-left: 0;}
+
+/*connect*/
+.connect_form_it label{width: auto;padding-bottom: 5px;}
+h1.logo{background: none;float: none;padding-bottom: 0;}
+h1.logo a{margin: 0 auto;}
+.slogan{float: none;}
+	.box2{width: auto;}
+		.box2 textarea{width: 336px;}
+.recruiter, .our_social, .meet_events{width: auto;float: none;margin-left: 0;}
+.event_name{width: 318px;}
+.b-modal .media{height: 320px;}
+.box2 .data{width: 110px;}
+.video{width: 320px;}
+
+}
+
+@media only screen and (max-width: 479px) {
+ body{min-width:300px;}
+ 	.container{width: 300px;}
+ 		.slogan{padding-top: 25px;}
+ 			.text1, .text2{font-size: 25px;margin-bottom: 0;}
+ 		.counter{padding-top: 25px;}
+ 		h1.logo{padding-top: 25px;}
+	.business_col{width: 200px;}
+	.column_left,.column_right{padding-left: 0;text-align: center;}
+		.column_right form{float: none;display: inline-block;}
+		.social{float: none;padding-left: 40px;padding-bottom: 10px;}
+	.caption{display: none;}
+	.solution,.business_course{margin-bottom: 18px;}
+	.flexslider{margin-bottom: 10px;}
+	.b-modal{width: 280px;}
+	/*connect*/
+.box2 input, .box2 textarea{width: 223px;}
+.box2 select{width: 225px;}
+.event_name{width: 198px;}
+.b-modal .media{height: 200px;}
+.box2 .data{width: 73px;}
+.video{width: 230px;}
+}
