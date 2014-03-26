@@ -1,25 +1,5 @@
 /*==================================RESPONSIVE LAYOUTS===============================================*/
-@media only screen and (max-width: 1290px) {
- body{min-width:1024px;}
-.container{width: 1024px;}
-	.counter{padding-left: 90px;}
-	.business_course_cell{padding-left: 30px;width: 300px;}
-		.business_col{width: 250px;}
-	.owl_box{width: 620px;}
-		.owl-prev, .owl-next{top: 48px;}
-/*connect*/
-.connect{padding: 50px 30px;width: 634px;}
-	.connect_form_it label{width: 124px;}
-	.box2{width: 509px;}
-		.box2 input, .box2 select{width: 267px;}
-		.box2 select{width: 269px;}
-		.box2 textarea{width: 485px;}
-		.required{margin-right: 57px;}
-aside.column3{width: 315px;}
-	.event_name{padding-left: 20px;width: 210px;}
-.box2 .data{width: 87px;}
-.solution_lk{right: 8%;}
-}
+
 @media only screen and (max-width: 1040px) {
  body{min-width:996px;}
 	.container{width: 996px;}
@@ -29,17 +9,28 @@ aside.column3{width: 315px;}
 		.vacancies,.column_right{padding-right: 25px;}
 		.column_left{padding-left: 25px;}
 /*connect*/
-aside.column3{width: 287px;}
-	.contact_tel{padding: 60px 10px;}
-	.event_name{width: 186px;}
+.connect{width: 665px;}
 .solution_lk{right: 6%;}
 }
 @media only screen and (max-width: 995px) {
  body{min-width:768px;}
 	.container{width: 768px;}
-		body.home_page .slogan,.counter{display: inline-block;float: none;}
+		body.home_page .slogan,.counter{
+			display: inline-block;
+			float: none;
+			padding-top: 140px;
+			padding-bottom: 10px;
+		}
 		.counter{padding-left: 165px;}
-		body.home_page h1.logo{background: none;float: none;padding-bottom: 0;}
+		body.home_page h1.logo{
+			background: none;
+			float: none;
+			position: absolute;
+			top: 0;
+			left: 50%;
+			margin-left: -115px;
+			padding-left: 0;
+		}
 			body.home_page h1.logo a{margin: 0 auto;}
 		.main_menu{width: 570px;}
 			.menu_lk{padding: 8px 15px 9px 15px;}
@@ -55,9 +46,8 @@ aside.column3{width: 287px;}
 /*connect*/
 .connect{width: auto;float: none;margin-bottom: 15px;}
 	.box2{width: 583px;}
-		.box2 input, .box2 select{width: 336px;}
+		.box2 input, .box2 select,.appy_page .box2 textarea{width: 336px;}
 		.box2 select{width: 338px;}
-		.box2 textarea{width: 499px;}
 	aside.column3{width: auto;float: none;margin-left: 0;overflow: hidden;}
 		.recruiter,.our_social,.meet_events{width: 376px;float: left;}
 		.our_social,.meet_events{margin-left: 16px;}
@@ -80,7 +70,7 @@ aside.column3{width: 287px;}
  	.title1{width: 150px;}
  	.caption{bottom: 5px;}
  	.caption_lk{width: 20px;}
- 	.counter{float: none;text-align: center;padding-left: 0;display: block;}
+ 	.counter{float: none;text-align: center;padding-left: 0;display: block;padding-top: 15px;}
  	.solution{padding: 0;}
  		.column1{padding: 15px;}
  			.title2{font-size: 20px;line-height: 26px;}
@@ -99,13 +89,27 @@ aside.column3{width: 287px;}
 		.career_lk{position: absolute;top: 5px;right: 0;}
 	.b-modal{width: 400px;}
 		.b-modal img{width: 100%;}
-	.slogan{text-align: center;display: block;padding-left: 0;}
+	.slogan{
+		text-align: center;
+		display: block !important;
+		padding-left: 0;
+		float: none;
+		padding-top: 140px;
+	}
+	h1.logo{
+			background: none;
+			float: none;
+			position: absolute;
+			top: 0;
+			left: 50%;
+			margin-left: -115px;
+			padding-left: 0;
+		}
 
 /*connect*/
 .connect_form_it label{width: auto;padding-bottom: 5px;}
 h1.logo{background: none;float: none;padding-bottom: 0;}
 h1.logo a{margin: 0 auto;}
-.slogan{float: none;}
 	.box2{width: auto;}
 		.box2 textarea{width: 336px;}
 .recruiter, .our_social, .meet_events{width: auto;float: none;margin-left: 0;}
